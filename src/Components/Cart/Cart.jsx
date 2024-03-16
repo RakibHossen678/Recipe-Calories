@@ -10,7 +10,7 @@ const Cart = ({cart,handleCook}) => {
       
       <div className="card lg:w-96 bg-base-100 border-2">
         <figure>
-          <img className='h-64 w-full'
+          <img className='h-64 w-full px-2 pt-2 rounded-2xl'
             src={recipe_image}
             alt="Shoes"
           />
@@ -36,6 +36,7 @@ const Cart = ({cart,handleCook}) => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };
