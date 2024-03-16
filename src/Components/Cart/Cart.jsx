@@ -41,7 +41,8 @@ const Cart = ({cart,handleCook}) => {
   );
 };
 Cart.propTypes ={
-  cart:PropTypes.array.isRequired
+  cart:PropTypes.array.isRequired,
+  handleCook:PropTypes.func.isRequired
 }
 
 export default Cart;

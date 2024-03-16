@@ -1,19 +1,13 @@
-
-
+import PropTypes from 'prop-types';
 const CurrentlyCooking = ({ delCart }) => {
-    
-  
   return (
     <div>
-        {
-            delCart.map(item=>(
-                <div
-            key={item.recipe_id}
-            className="flex lg:space-x-10 space-x-7 pb-4"
-          >
+      {delCart.map((item) => (
+        <div key={item.recipe_id}>
+          <div className="flex lg:space-x-10 space-x-7 pb-4">
             <p>
               <span className="pr-1 ">{item.recipe_id}.</span>
-              {item.recipe_name.slice(0,14)}
+              {item.recipe_name.slice(0, 14)}
             </p>
             <p className="">
               <h1>{item.preparing_time}</h1>
@@ -24,13 +18,13 @@ const CurrentlyCooking = ({ delCart }) => {
               <p>calories</p>
             </p>
           </div>
-    
-            ))
-        }
-
-      
+        </div>
+      ))}
     </div>
   );
 };
+CurrentlyCooking.propTypes ={
+  delCart:PropTypes.array.isRequired
+}
 
 export default CurrentlyCooking;

@@ -1,4 +1,5 @@
 import CurrentlyCooking from "../CurrentlyCooking/CurrentlyCooking";
+import PropTypes from 'prop-types';
 
 const Details = ({ Cart, handleCurrentlyCooking, deleteCart }) => {
   return (
@@ -64,6 +65,7 @@ const Details = ({ Cart, handleCurrentlyCooking, deleteCart }) => {
             </div>
             {deleteCart.map((delCart, idx) => (
               <CurrentlyCooking key={idx} delCart={delCart}></CurrentlyCooking>
+              
             ))}
           </div>
         </div>
@@ -71,5 +73,10 @@ const Details = ({ Cart, handleCurrentlyCooking, deleteCart }) => {
     </div>
   );
 };
+Details.propTypes ={
+  Cart:PropTypes.array.isRequired,
+  deleteCart:PropTypes.array.isRequired,
+  handleCurrentlyCooking:PropTypes.func.isRequired
+}
 
 export default Details;

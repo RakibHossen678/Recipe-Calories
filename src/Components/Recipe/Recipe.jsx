@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Cart from "../Cart/Cart";
 import { useState } from "react";
+import PropTypes from 'prop-types';
 
 
 const Recipe = ({handleCook}) => {
@@ -20,5 +21,7 @@ const Recipe = ({handleCook}) => {
         </div>
     );
 };
-
+Recipe.propTypes ={
+    handleCook:PropTypes.func.isRequired
+  }
 export default Recipe;
