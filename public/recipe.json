@@ -1,51 +1,51 @@
 [
     {
-      "recipe_image": "https://example.com/image1.jpg",
+      "recipe_image": "https://i.ibb.co/9VbcJ6r/Spicy-Chicken-Pasta.jpg",
       "recipe_id": 1,
       "recipe_name": "Spicy Chicken Pasta",
       "short_description": "A fiery twist on classic pasta with tender chicken and spicy sauce.",
-      "ingredients": ["250g pasta", "2 chicken breasts", "1 onion", "2 cloves garlic", "1 red bell pepper", "1 can diced tomatoes", "2 tablespoons tomato paste", "1 teaspoon chili flakes", "1 teaspoon paprika", "Salt and pepper to taste", "Fresh parsley for garnish"],
+      "ingredients": ["250g pasta", "2 chicken breasts", "1 onion", "2 cloves garlic", "1 teaspoon chili flakes",  "Fresh parsley for garnish"],
       "preparing_time": 30,
       "calories": 450
     },
     {
-      "recipe_image": "https://example.com/image2.jpg",
+      "recipe_image": "https://i.ibb.co/8s2pVgC/Grilled-Salmon-with-Lemon-Herb-Butter.jpg",
       "recipe_id": 2,
-      "recipe_name": "Grilled Salmon with Lemon Herb Butter",
+      "recipe_name": "Grilled Salmon with Lemon Herb ",
       "short_description": "Juicy grilled salmon fillets served with a tangy lemon herb butter sauce.",
-      "ingredients": ["4 salmon fillets", "2 tablespoons olive oil", "2 cloves garlic, minced", "2 tablespoons lemon juice", "1 tablespoon chopped fresh parsley", "1 tablespoon chopped fresh dill", "Salt and pepper to taste", "Lemon slices for garnish"],
+      "ingredients": ["4 salmon fillets", "2 tablespoons olive oil", "2 cloves garlic, minced", "2 tablespoons lemon juice", "1 tablespoon chopped fresh parsley", "Lemon slices for garnish"],
       "preparing_time": 20,
       "calories": 350
     },
     {
-      "recipe_image": "https://example.com/image3.jpg",
+      "recipe_image": "https://i.ibb.co/7Yym0wB/Easy-Vegetable-Stir-Fry-V1.jpg",
       "recipe_id": 3,
       "recipe_name": "Vegetable Stir-Fry",
       "short_description": "A colorful and nutritious mix of assorted vegetables stir-fried to perfection.",
-      "ingredients": ["1 cup broccoli florets", "1 bell pepper, sliced", "1 carrot, julienned", "1 cup snap peas", "1 onion, sliced", "2 cloves garlic, minced", "3 tablespoons soy sauce", "1 tablespoon sesame oil", "1 teaspoon grated ginger", "1 tablespoon cornstarch", "2 tablespoons water", "Cooked rice for serving"],
+      "ingredients": ["1 cup broccoli florets", "1 bell pepper, sliced","1 cup snap peas", "1 onion, sliced", "2 cloves garlic, minced", "2 tablespoons water"],
       "preparing_time": 25,
       "calories": 200
     },
     {
-      "recipe_image": "https://example.com/image4.jpg",
+      "recipe_image": "https://i.ibb.co/Sf5jNg5/Easy-Cheeseburger-Sliders-012-scaled.webp",
       "recipe_id": 4,
       "recipe_name": "Cheeseburger Sliders",
       "short_description": "Miniature cheeseburgers served on soft slider buns, perfect for parties or snacks.",
-      "ingredients": ["1 lb ground beef", "8 slider buns", "8 slices cheddar cheese", "1 onion, thinly sliced", "Lettuce leaves", "Tomato slices", "Pickles", "Ketchup and mustard for serving"],
+      "ingredients": ["1 lb ground beef", "8 slider buns", "8 slices cheddar cheese", "1 onion, thinly sliced", "Lettuce leaves",  "Ketchup and mustard for serving"],
       "preparing_time": 15,
       "calories": 300
     },
     {
-      "recipe_image": "https://example.com/image5.jpg",
+      "recipe_image": "https://i.ibb.co/0DRQ16z/gourmet-mushroom-risotto.jpg",
       "recipe_id": 5,
       "recipe_name": "Mushroom Risotto",
       "short_description": "Creamy and flavorful risotto with earthy mushrooms, perfect as a main or side dish.",
-      "ingredients": ["1 cup Arborio rice", "4 cups vegetable broth", "1 onion, diced", "2 cloves garlic, minced", "2 cups sliced mushrooms", "1/2 cup dry white wine", "1/4 cup grated Parmesan cheese", "2 tablespoons butter", "Salt and pepper to taste", "Chopped fresh parsley for garnish"],
+      "ingredients": ["1 cup Arborio rice", "4 cups vegetable broth", "1 onion, diced", "2 cloves garlic, minced", "2 cups sliced mushrooms",  "Salt and pepper to taste"],
       "preparing_time": 40,
       "calories": 300
     },
     {
-      "recipe_image": "https://example.com/image6.jpg",
+      "recipe_image": "https://i.ibb.co/q0FpMhn/Caprese-Salad-main-1.webp",
       "recipe_id": 6,
       "recipe_name": "Caprese Salad",
       "short_description": "A simple and refreshing salad featuring ripe tomatoes, fresh mozzarella, and basil.",
