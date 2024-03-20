@@ -30,7 +30,7 @@ function App() {
     const deleteItem=Cart.filter(c=>c.recipe_id != item.recipe_id)
     const getdeleteItem=Cart.filter(c=>c.recipe_id === item.recipe_id)
     setCart(deleteItem)
-    setDeleletCarts([...deleteCarts,getdeleteItem])
+    setDeleletCarts([...deleteCarts,...getdeleteItem])
   }
  
 

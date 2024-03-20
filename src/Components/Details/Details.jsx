@@ -2,6 +2,7 @@ import CurrentlyCooking from "../CurrentlyCooking/CurrentlyCooking";
 import PropTypes from 'prop-types';
 
 const Details = ({ Cart, handleCurrentlyCooking, deleteCart }) => {
+  console.log(deleteCart)
   return (
     <div className="mt-16 border-2  ">
       <div className="">
@@ -67,6 +68,15 @@ const Details = ({ Cart, handleCurrentlyCooking, deleteCart }) => {
               <CurrentlyCooking key={idx} delCart={delCart}></CurrentlyCooking>
               
             ))}
+          </div>
+          <div className="flex justify-end space-x-4 text-center pr-2 font-medium">
+            <p>Total  Time =<br /> {
+              deleteCart.reduce((total,current)=>total+current.preparing_time,0)} minutes
+            </p>
+            <p>Total Calories = <br /> {
+              deleteCart.reduce((total,current)=>total+current.calories,0)} calories
+            </p>
+            
           </div>
         </div>
       </div>
